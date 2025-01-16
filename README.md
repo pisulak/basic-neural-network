@@ -47,11 +47,12 @@ Wszystkie te miary pomagają ocenić, jak dokładnie model przewiduje ceny samoc
 ## Dyskusja wyników i ewaluacja modelu
 
 **Wyniki modelowania:**
-Regresja klasyczna:
+
+**Regresja klasyczna**:
 ![wykres porownania](image.png)
 ![histogram bledow](image-1.png)
 
-Regresja kwantylowa:
+**Regresja kwantylowa**:
 ![wykres porownania2](image-2.png)
 ![histogram bledow2](image-3.png)
 
