@@ -47,8 +47,14 @@ Wszystkie te miary pomagają ocenić, jak dokładnie model przewiduje ceny samoc
 ## Dyskusja wyników i ewaluacja modelu
 
 **Wyniki modelowania:**
+Regresja klasyczna:
 ![wykres porownania](image.png)
 ![histogram bledow](image-1.png)
+
+Regresja kwantylowa:
+![wykres porownania2](image-2.png)
+![histogram bledow2](image-3.png)
+
 Po przeprowadzeniu 10 testów na modelu regresyjnym, uzyskano następujące średnie wyniki:
 
 - **Mean Absolute Error (MAE)**: 0.2353 / **dla regresji kwantylowej**: 0.279682
