@@ -51,27 +51,27 @@ Wszystkie te miary pomagają ocenić, jak dokładnie model przewiduje ceny samoc
 ![histogram bledow](image-1.png)
 Po przeprowadzeniu 10 testów na modelu regresyjnym, uzyskano następujące średnie wyniki:
 
-- **Mean Absolute Error (MAE)**: 0.2353
+- **Mean Absolute Error (MAE)**: 0.2353 / **dla regresji kwantylowej**: 0.279682
 
   Średni błąd bezwzględny wskazuje, że model średnio popełnia błąd około 0.2353 jednostki ceny na samochód. To wskazuje na dobrą jakość modelu, ponieważ błąd nie jest zbyt duży.
 
-- **Mean Squared Error (MSE)**: 0.1234
+- **Mean Squared Error (MSE)**: 0.1234 / **dla regresji kwantylowej**: 0.186301
 
   Średni błąd kwadratowy jest również stosunkowo niski, co potwierdza, że model dobrze odwzorowuje zależności w danych.
 
-- **Root Mean Squared Error (RMSE)**: 0.3506
+- **Root Mean Squared Error (RMSE)**: 0.3506 / **dla regresji kwantylowej**: 0.431626
 
   Pierwiastek średniego błędu kwadratowego daje wynik 0.3506, co jest zbliżone do przeciętnej wielkości błędów w prognozowanych wartościach.
 
-- **R-squared (R²)**: 0.9025
+- **R-squared (R²)**: 0.9025 / **dla regresji kwantylowej**: 0.852780
 
   Wartość R² wskazuje na to, że model wyjaśnia około 90.25% zmienności danych, co oznacza, że model jest bardzo efektywny w przewidywaniu ceny samochodów.
 
-- **Accuracy**: 0.9025
+- **Accuracy**: 0.9025 / **dla regresji kwantylowej**: 0.852780
 
   Ponieważ model jest regresyjny, uznaliśmy R² za odpowiednik dokładności w kontekście tego zadania. Wartość ta również wynosi 90.25%, co potwierdza, że model jest skuteczny.
 
-- **Loss**: 0.1354
+- **Loss**: 0.1354 / **dla regresji kwantylowej**: 0.186301
 
   Loss wskazuje średnią różnicę między przewidywanymi a rzeczywistymi wartościami, a wynik 0.1354 sugeruje, że model jest w stanie przewidywać ceny z niewielkim błędem, co jest dobrym wynikiem w kontekście tego zadania regresyjnego.
 
